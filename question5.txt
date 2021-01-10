@@ -1,0 +1,25 @@
+Hi Mr.Dev,
+
+I have just received your email regarding customize Auto-Suggestion feature.
+I hope that the information below will be of great help to you
+
+    - How can I change the order of three blocks in the Suggestion result (Suggestion term, Collection and Product)?
+    You can easily change the position order of each property (suggestions, collection, products) in DEFINE_SEARCH variable - Search.Js input-field
+
+    - How can I integrate your feature to a specific textbox?
+    Firstly you need to import all JS and CSS files in source code folder. 
+    Then, please add some class name following the correct template structure 
+
+    - Can I increase the number of character to two?
+    As I have answered above in the first question, you can check MIN_LENGTH_INPUT_TRIGGER variable in Search.Js file, it represents for the length of data you entered.
+
+    - I would like to customize the layout of the Product section in the Suggestion result. I have knowledge in JS and CSS so I can do it by myself.
+    Can you please give me some instructions on how to do it?
+
+    The layout of product section is what I defined as the layout property of DEFINE_SEARCH variable. You can edit it following your idea, please remember to add some CSS codes for this layout.
+
+
+If you have any questions please do not hesitate to contact me. I look forward to hearing from you.
+Have a good day
+
+Nam Truong Thanh

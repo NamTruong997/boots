@@ -1,0 +1,161 @@
+@import "./reset.css";
+
+/* Navbar */
+@media only screen and (min-width: 992px) {
+  .nav-wrapper {
+    padding-left: 2rem;
+  }
+}
+#nav-mobile {
+  height: 100%;
+}
+
+nav .brand-logo {
+  height: 100%;
+  font-size: 1.5rem;
+}
+
+/* Search Bar */
+.search-bar {
+  width: 55px;
+}
+.search-bar .nomatching-text {
+  color: #424656;
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding: 0.75rem;
+}
+.search-bar .text-highlight {
+  color: #424656;
+  font-weight: 700;
+}
+@media only screen and (min-width: 992px) {
+  .search-bar {
+    width: 300px;
+  }
+}
+
+/* Input search */
+.search-elm {
+  height: inherit;
+  padding-left: 4rem !important;
+  width: calc(100% - 4rem) !important;
+  border: 0;
+  margin: 0;
+}
+
+.material-icons.icon-close {
+  line-height: 46px;
+}
+
+.search-elm + .label-icon {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  transform: none;
+  left: 1rem;
+  cursor: pointer;
+  z-index: 2;
+}
+
+/* Board suggestitons */
+.board-search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+/* Preloading */
+.board-search .preloader-wrapper {
+  margin: 0.75rem;
+}
+
+/* Block suggest*/
+.board-search .block-suggest {
+  width: 100%;
+  color: gray;
+  line-height: 1;
+}
+
+.board-search .block-suggest li {
+  width: 100%;
+}
+
+.block-suggest .suggest-header {
+  padding: 0.75rem;
+  background-color: #424656;
+  color: white;
+}
+
+.block-suggest .suggest-body {
+  padding: 0.375rem 0;
+}
+
+.search-bar .block-suggest a {
+  display: block;
+  width: 100%;
+  color: #bdbdbd;
+  line-height: 1.5;
+  padding: 0 0.75rem;
+}
+
+.search-bar .block-suggest .block-more-products {
+  text-align: center;
+}
+
+.search-bar .block-suggest .block-more-products a {
+  font-weight: 700;
+  font-size: 0.75rem;
+  padding: 0.5rem 0;
+}
+
+/* Block Product*/
+.block-product {
+  display: flex;
+  padding: 0.375rem 0;
+}
+
+.block-product img.image {
+  width: 60px;
+  object-fit: cover;
+  margin-right: 0.5rem;
+}
+@media only screen and (min-width: 992px) {
+  .block-product img.image {
+    width: 80px;
+  }
+}
+
+.block-product h4.title {
+  font-size: 1rem;
+  line-height: 1;
+  margin: 0;
+}
+
+.block-product .wrapper {
+  font-size: 0.75rem;
+}
+
+.block-product .brand {
+  margin: 0.35rem 0;
+}
+
+.block-product .price {
+  font-weight: 700;
+  color: black;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: white;
+  background-color: #424656;
+  text-align: center;
+  padding: 1rem;
+}
